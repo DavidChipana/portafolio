@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: #fffffa;
+}
+
+header{
+    margin: 0;
+    width: 100%;
+}
+
+
+header .nav{
+    width: 80%;
+    background:#024959;
+    
+  
+    
+}
+
+
+
+
+.menu-bar{
+    display: none;
+
+
+}
+
+
+
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float:left;
+
+
+}
+
+header nav ul li a{
+    
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+
+header nav ul li span{
+    margin-right: 10px;
+}
+
+
+header nav ul li a:hover{
+    background: #037e8c;
+    border-radius: 10px;
+    border: solid 3px rgb(6, 54, 10);
+}
+
+
+/*estos som*/
+
+
+
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+        left: -100%;
+		margin:0;
+		position: fixed;
+	}
+
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu-bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+
+	.menu-bar .btn{
+        display: block;
+        padding: 30px;
+        background: #024959;
+        color: #ccc;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+
+.menu-bar span{
+    float: right;
+    font-size: 30px;
+    
+}
+}
